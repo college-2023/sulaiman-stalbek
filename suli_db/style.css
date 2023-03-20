@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&family=Inter:wght@500;700&display=swap');
+body {
+	background: 
+	rgba(45, 45, 45, 1);
+	background-image: url("img/Group\ 26.png");
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	border: 2px solid #ccc;
+	padding: 30px;
+	background: #fff;
+	border-radius: 15px;
+}
+form .label{
+	font-family: 'Inter';
+	font-weight: 700;
+	font-size: 12px;
+}
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+	font-family: 'Inter';
+    font-weight: 800;
+    font-size: 35px;
+	color: black;
+	
+}
+
+form input{
+	display: flex;
+	width: 93%;
+	padding: 10px;
+    font-family: 'Inter';
+    font-weight: 100;
+    font-size: 15px;
+	border: 0;
+    outline: 0;
+    border-bottom: 2px solid #696969;
+	margin-left: 12px;
+}
+form input:focus{
+	border-bottom: 3px solid black;
+}
+label {
+	color: #888;
+	font-size: 15px;
+	padding: 10px;
+	font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+	color: black;
+}
+
+button {
+	float: right;
+	background: rgba(45, 45, 45, 1);
+	padding: 15px 15px;
+	color: #fff;
+	border-radius: 25px;
+	margin-right: 10px;
+	border: none;
+	font-size: 17px;
+	font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   color: black;
+   padding: 10px;
+   width: 95%;
+   border: 1px solid red;
+   margin: 20px auto;
+}
+
+.success {
+   color: #000000;
+   padding: 10px;
+   width: 95%;
+   border: 1px solid black;
+   margin: 20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+}
+
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+
+.icons_apps{
+	display: flex;
+	justify-content: space-between;
+	width: 45%;
+	margin-left: 26%;
+}
+.icons_apps .st_icon{
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+}
+form a, span{
+	font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
